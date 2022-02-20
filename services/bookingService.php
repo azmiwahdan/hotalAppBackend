@@ -1,7 +1,7 @@
 <?php
 class bookingService{   
     
-    private $table ="reservations";   
+    private $table ="reserved";   
     public $book_id;   
     public $customer;
 	public $room;
@@ -22,7 +22,7 @@ class bookingService{
 			$stmt->bind_param("i", $this->book_id);	
 		}else{
 		
-			$stmt = $this->conn->prepare("SELECT * FROM reservations");		
+			$stmt = $this->conn->prepare("SELECT * FROM reserved");		
 		}
 		$stmt->execute();			
 		$result = $stmt->get_result();		

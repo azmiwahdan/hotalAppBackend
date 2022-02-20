@@ -12,8 +12,8 @@
 
 
 		$server_name = "localhost";
-		$username = "azmiDB";
-		$password = "root";
+		$username = "root12345";
+		$password = "root12345";
 		$dbname = "hotelDB";
 
 		$conn = new mysqli($server_name, $username, $password, $dbname);

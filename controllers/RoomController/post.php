@@ -12,9 +12,9 @@
 
 
 		$server_name = "localhost";
-		$username = "azmiDB";
-		$password = "root";
-		$dbname = "hotelDB";
+		$username = "root12345";
+		$password = "root12345";
+		$dbname = "hoteldb";
 
 		$conn = new mysqli($server_name, $username, $password, $dbname);
 		if ($conn->connect_error) {

@@ -1,9 +1,9 @@
 <?php
 class Database{
 	private $host  = 'localhost';
-    private $user  = 'azmiDB';
-    private $password   = "root";
-    private $database  = "hotelDB";
+    private $user  = 'root12345';
+    private $password   = "root12345";
+    private $database  = "hoteldb";
     public function getConnection(){		
 		$conn = new mysqli($this->host, $this->user, $this->password, $this->database);
 		if($conn->connect_error){
